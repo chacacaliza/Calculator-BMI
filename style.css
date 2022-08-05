@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Times New Roman';
+    background-image: url(bg.PNG);
+    background-size: cover;
+    width: 100%;
+}
+
+div {
+    width: 400px;
+	top: 50%;
+	left: 50%;
+	padding: 20px;
+	border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+	box-shadow: 1px 1px 20px #a4a2a2;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.text {
+    text-align: left;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+#weight {
+    color: black;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #341f97;
+    width: 200px;
+    
+}
+
+#height {
+    color: black;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #341f97;
+    width: 200px;
+}
+
+
+#result {
+    color: #341f97;
+}
+
+#button {
+    font-family: inherit;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    background-color: green;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 30px;
+    font-size: medium;
+}
+
+#reset {
+    font-family: inherit;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    background-color: rgb(237, 45, 6);
+    width: 100px;
+    border-radius: 20px;
+    font-size: medium;
+    cursor: pointer;
+    height: 30px;
+}
+
+#button:hover{
+    box-shadow: 1px 1px 10px #341f97;
+    background-color: rgb(7, 212, 120); 
+    color: white;
+      
+}
+
+#reset:hover{
+    box-shadow: 1px 1px 10px palevioletred;
+    background-color: rgb(255, 1, 1); 
+    color: white;
+}
+
+#guide {
+    font-size: 14px;
+    font-family: inherit;
+}
+
+#resultcalculate {
+    color: #341f97;
+    font-size: large;
+    font-weight:500;
+}
+
+#status {
+    color: #341f97;
+    font-size: large;
+    font-weight: 700;
+}
+
+@media(max-width:630px){
+    div{
+        width: 80%;
+    }
+
+    div .text{
+        margin-left: 100px;
+    }
+}
+
+@media(max-width:415px){
+    div .text{
+        margin-left: 60px;
+    }
+}
+
+@media(max-width:375px){
+    div .text{
+        margin-left: 45px;
+    }
+}
